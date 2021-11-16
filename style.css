@@ -221,7 +221,6 @@ body {
 
 .statistics_img {
     max-width: 632px;
-    display: inline-block;
     padding-top: 90px;
 }
 
@@ -283,7 +282,7 @@ body {
 
 .info:last-child,
 .info:nth-child(3n),
-.boost-info:nth-child(3n) {
+.boost-info:last-child {
     margin-right: 0;
 }
 
@@ -330,10 +329,13 @@ body {
     margin-bottom: 58px;
 }
 
-.caption {
-    font-weight: 600;
+.caption, .excerpt {
     font-size: 30px;
     line-height: 40px;
+}
+
+.caption {
+    font-weight: 600;
     max-width: 168px;
     margin-bottom: 34px;
 }
@@ -341,4 +343,29 @@ body {
 .boost-lead {
     max-width: 407px;
     margin-bottom: 26px;
+}
+
+.revolut {
+    background: #C9E8F2;
+}
+
+.revolut-sub {
+    display: flex;
+    align-items: stretch;
+    padding-bottom: 105px;
+}
+
+.excerpt {
+    max-width: 895px;
+    padding-bottom: 23px;
+}
+
+.revolut-text {
+    padding-top: 63px;
+    margin-right: 85px;
+}
+
+.edward-img {
+    max-width: 310px;
+    padding-top: 53px;
 }
