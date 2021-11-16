@@ -47,7 +47,7 @@ body {
     border-bottom: 1px solid #CCCCCC;
 }
 
-.navigation, .notes {
+.navigation, .notes, .boost {
     background: #FFFFFF;
 }
 
@@ -63,11 +63,8 @@ body {
 }
 
 .login {
-
-}
-
-.btn {
-
+    justify-content: end;
+    margin-left: 196px;
 }
 
 .subtitle-tiny {
@@ -202,12 +199,16 @@ body {
     margin-bottom: 30px;
 }
 
-.subtitle-left, .link, .subtitle-right {
+.subtitle-left, .link, .subtitle-right, .boost-lead, .link-Learn {
     font-size: 20px;
     line-height: 30px;
+}
+
+.subtitle-left, .link, .subtitle-right {
     margin-bottom: 30px;
     max-width: 520px;
 }
+
 
 .link {
     font-weight: 600;
@@ -281,6 +282,63 @@ body {
 }
 
 .info:last-child,
-.info:nth-child(3n) {
+.info:nth-child(3n),
+.boost-info:nth-child(3n) {
     margin-right: 0;
+}
+
+.tittle-big {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.boost {
+    margin-bottom: 180px;
+}
+
+.boost-desc {
+    display: flex;
+    align-items: flex-start;
+}
+
+.boost-info {
+    margin-right: 31px;
+}
+
+.boost-images {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.boost-img_1 {
+    margin-top: 75px;
+    margin-bottom: 49px;
+    margin-right: 295px;
+}
+.boost-img_2 {
+    margin-top: 92px;
+    margin-bottom: 67px;
+    margin-right: 261px;
+}
+
+.boost-img_3 {
+    margin-top: 84px;
+    margin-bottom: 58px;
+}
+
+.caption {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 168px;
+    margin-bottom: 34px;
+}
+
+.boost-lead {
+    max-width: 407px;
+    margin-bottom: 26px;
 }
