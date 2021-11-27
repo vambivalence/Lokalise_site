@@ -37,7 +37,7 @@ body {
     color: #FF9C7D;
 }
 
-.log.button.orange:hover {
+.log.button-orange:hover {
     color: #000000;
 }
 
@@ -69,12 +69,13 @@ main, .navigation, .notes, .boost, .work-tools {
 }
 
 .nav-link {
+    display: inline-block;
     font-size: 15px;
     line-height: 20px;
 }
 
 .login {
-    justify-content: end;
+    justify-content: flex-end;
     margin-left: 196px;
 }
 
@@ -95,14 +96,17 @@ main, .navigation, .notes, .boost, .work-tools {
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 0px 36px 0px 36px;
     text-align: center;
+
 }
 
-.log.button.orange {
+.log.button-orange {
     display: inline-block;
+    text-decoration: none;
     margin-left: 10px;
     background: #FF6336;
-    border: 1px #FF6336;
+    border: 1px solid#FF6336;
     color: #FFFFFF;
+    padding: 0px 26px 0px 26px;
 }
 
 .navigation-link {
@@ -138,15 +142,16 @@ main, .navigation, .notes, .boost, .work-tools {
 }
 
 .log.button.two,
-.log.button.orange.two {
+.log.button-orange.two {
     display: inline-block;
+    text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
     margin-bottom: 25px;
     margin-left: 10px;
 }
 
-.log.button.orange.two:first-child {
+.log.button-orange.two:first-child {
     margin-left: 0;
 }
 
@@ -214,7 +219,7 @@ main, .navigation, .notes, .boost, .work-tools {
 }
 
 .tittle-left, .tittle-right, .subtitle-right {
-    width: 493px;
+    max-width: 493px;
 }
 
 .tittle-left, .tittle-right {
@@ -262,7 +267,7 @@ main, .navigation, .notes, .boost, .work-tools {
 }
 
 .tittle-center {
-    width: 890px;
+    max-width: 890px;
     padding-top: 120px;
     margin-right: auto;
     margin-left: auto;
@@ -284,7 +289,6 @@ main, .navigation, .notes, .boost, .work-tools {
     font-weight: 600;
     font-size: 25px;
     line-height: 35px;
-    max-width: 230px;
     max-width: 230px;
     margin-bottom: 20px;
     margin-left: 43px;
