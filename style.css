@@ -312,64 +312,58 @@ main, .navigation, .notes, .boost, .work-tools {
     margin-right: 0;
 }
 
-.tittle-big {
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
-    margin-right: auto;
-    margin-left: auto;
+.boost {
+    padding-top: 154px;
+    padding-bottom: 187px;
 }
 
-.boost {
-    margin-bottom: 180px;
+.tittle-big {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 75px;
+    text-align: center;
 }
 
 .boost-desc {
     display: flex;
-    align-items: flex-start;
 }
 
 .boost-info {
-    margin-right: 31px;
-}
-
-.boost-images {
-    display: flex;
-    flex-wrap: nowrap;
+    margin-right: 30px;
 }
 
 
-.boost-img_1 {
-    margin-top: 75px;
+.boost-img {
     margin-bottom: 49px;
-    margin-right: 295px;
-}
-.boost-img_2 {
-    margin-top: 92px;
-    margin-bottom: 67px;
-    margin-right: 261px;
-}
-
-.boost-img_3 {
-    margin-top: 84px;
-    margin-bottom: 58px;
-}
-
-.caption, .excerpt {
-    font-size: 30px;
-    line-height: 40px;
+    height: 201px;
 }
 
 .caption {
+    font-size: 30px;
     font-weight: 600;
-    max-width: 168px;
+    line-height: 40px;
     margin-bottom: 34px;
 }
 
 .boost-lead {
-    max-width: 407px;
-    margin-bottom: 26px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
 }
+
+.link-Learn {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
 
 .revolut {
     background: #C9E8F2;
@@ -412,6 +406,7 @@ main, .navigation, .notes, .boost, .work-tools {
 }
 
 .stars_img {
+    display: inline-block;
     padding-left: 70px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -472,7 +467,7 @@ main, .navigation, .notes, .boost, .work-tools {
     line-height: 60px;
 }
 
-.footer {
+footer {
     background: #EEEEEE;
 }
 
@@ -515,7 +510,6 @@ main, .navigation, .notes, .boost, .work-tools {
     font-size: 20px;
     line-height: 25px;
     padding-top: 10px;
- 
 }
 
 .wrap {

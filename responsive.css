@@ -2,7 +2,8 @@
     /*header*/
 
     .container {
-        padding: 0px 8px; 
+        padding-left: 8px;
+        padding-right: 8px;
         max-width: auto;
     }
 
@@ -50,7 +51,7 @@
         margin-left: 30px;
     }
 
-    .align-items, .subtitle-tiny, .subtitle, .tittle {
+    .align-items, .subtitle-tiny, .subtitle, .tittle, .tittle-left, .tittle-right, .subtitle-left, .subtitle-right, .revolut-text, .tagline_left {
         text-align: center;
     }
 
@@ -74,6 +75,7 @@
     .brands {
         flex-wrap: wrap;
     }
+    
 
     .brands-list {
         margin-right: 50px;
@@ -81,9 +83,164 @@
     }
 
     /*notes*/
-    
 
-}
+    .text-left, .text-right {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .notes-indent {
+        padding-top: 0px;
+    }
+
+    .link {
+        display: flex;
+    }
+
+    .text-left:first-child {
+        padding-top: 30px;
+
+    }
+    
+    .text-left, .text-right{
+        padding: 15px;
+    }
+
+    .tittle-right {
+        padding-top: 0px;
+    }
+
+   .notes-indent-two {
+        padding-top: 0px;
+   }
+
+   /*icon*/
+
+   .icon {
+        margin-top: 20px;
+        padding-bottom: 40px;
+   }
+
+   .tittle-center {
+        padding-top: 60px;
+        text-align: center;
+   }
+
+   .info {
+    margin-right: 20px;
+    }
+
+    /*boost*/
+
+   
+
+    
+    /*revolut*/
+
+    .revolut-sub {
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-bottom: 75px;
+    }
+
+    .revolut-text {
+        margin-right: 0px;
+    }
+
+    .edward-img {
+        width: auto;    
+        flex-direction: row;
+        order: 1;
+        margin-right: auto;   
+        margin-left: auto;
+        padding-right: 10px;
+    }
+
+    /*tagline*/ 
+
+    .tagline {
+        padding-top: 60px;
+        padding-bottom: 64px;
+    }
+
+    .tagline-software {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tagline_left {
+        padding-bottom: 15px;
+    }
+    
+    .tagline-tittle {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .stars_img {
+        padding-top: 50px;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    .stars_img:first-child {
+        border-left: 0px;
+    }
+
+    /*work-tools*/
+
+    .work-tools {
+        padding-top: 85px;
+        padding-bottom: 82px;
+    }
+
+    .heading {
+        font-size: 55px;
+        max-width: 770px;
+    }
+
+    .bird {
+        max-width: 770px;
+    }
+
+     /*try*/
+    
+     .try {
+        padding-top: 79px;
+        padding-bottom: 70px;
+    }
+
+    /*foother*/
+
+    .footer-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding-top: 52px;
+        padding-bottom: 55px;
+    }
+
+    .studies {
+        align-items: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .footer-caption {
+        margin-right: 10px;
+    }
+
+    .wrap {
+        max-width: 170px;
+    }
+    
+ 
+
+} 
 
 @media (max-width: 768px) {
     /*header*/
@@ -110,7 +267,7 @@
     .nav-link {
         margin-right: 7px;
         font-size: 11px;
-     }
+    }
 
      .login {
         margin-top: 10px;
@@ -181,7 +338,191 @@
 
      /*notes*/
 
+     .text-left, .text-right {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .notes-indent {
+        padding-top: 0px;
+    }
+
+    .link {
+        display: flex;
+    }
+
+    .text-left:first-child {
+        padding-top: 15px;
+    }
+    
+    .text-left {
+        padding: 15px;
+    }
+
+    .tittle-right {
+        padding-top: 0px;
+    }
+
+   .notes-indent-two {
+        padding-top: 0px;
+    }
+
+   .tittle-left, .tittle-right {
+        font-size: 38px;
+        max-width: 450px;
+    }
+
+   .subtitle-right, .subtitle-left {
+        font-size: 18px;
+        max-width: 450px;
+    }
+
+   .statistics_img {
+     max-width: 320px;
+    }
+    
+    /*icon*/
+
+    .icon {
+        margin-bottom: 30px;
+    }
+
+    .info {
+        margin-right: 10px;
+    }
+
+    .tittle-center {
+        font-size: 40px;
+    }
+
+    /*boost*/
+
+    
+
+    
+    
+    /*revolut*/
+
+    .revolut-sub {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-bottom: 65px;
+    }
+
+    .edward-img {
+        width: auto;
+        flex-direction: row;
+        order: 1;
+        margin-right: auto;   
+        margin-left: auto;
+    }
+
+    .revolut-text {
+        margin-right: 0px;
+    }
+
+    .excerpt {
+        font-size: 22px;
+    }
+
+    /*tagline*/
+
+    .tagline {
+        padding-top: 50px;
+        padding-bottom: 54px;
+    }
+
+    .tagline-software {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tagline_left {
+        padding-bottom: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tagline-tittle { 
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 28px;
+        max-width: 520px;
+    }
+
+    .stars_img {
+        padding-top: 50px;
+        padding: 0;
+        margin-right: 20px;
+        max-width: 100px;
+    }
+
+    .stars_img:first-child {
+        border-left: 0px;
+    }
+
+    .cake_img {
+        max-width: 140px;
+    }
+
+    /*work-tools*/
+
+    .bird {
+        max-width: 320px;
+    }
+
+    .heading {
+        font-size: 40px; 
+    }
+
+    .work-tools {
+        padding-top: 45px;
+        padding-bottom: 42px;
+    }
+
+    /*try*/
+
+    .try {
+        padding-top: 39px;
+        padding-bottom: 40px;
+    }
 
 
+    /*foother*/
+
+    .footer-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-link {
+        font-size: 12px;
+    }
+
+    .footer-caption {
+        margin-right: 0px;
+    }
+
+    .wrap {
+        max-width: 150px;
+    }
+
+    .copyright {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .copy-text {
+        width: 130px;
+    }
+
+    .copy-left {
+        padding-top: 30px;
+    }
+    
 }
 
