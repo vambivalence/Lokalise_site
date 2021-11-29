@@ -509,7 +509,7 @@ footer {
 
 .wrap {
     margin-top: 21px;
-    width: 200px;
+    max-width: 200px;
 }
 
 .footer-item {
