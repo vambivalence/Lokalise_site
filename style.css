@@ -331,8 +331,8 @@ main, .navigation, .notes, .boost, .work-tools {
 
 .boost-info {
     margin-right: 30px;
-}
 
+}
 
 .boost-img {
     margin-bottom: 49px;
@@ -357,14 +357,6 @@ main, .navigation, .notes, .boost, .work-tools {
     line-height: 30px;
 }
 
-
-
-
-
-
-
-
-
 .revolut {
     background: #C9E8F2;
 }
@@ -373,11 +365,14 @@ main, .navigation, .notes, .boost, .work-tools {
     display: flex;
     align-items: stretch;
     padding-bottom: 105px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .excerpt {
     max-width: 895px;
     padding-bottom: 23px;
+    font-size: 30px;
 }
 
 .revolut-text {
